@@ -21,5 +21,4 @@ Complejidad ciclomatica V(G) = 4.
 ## Ejecutar
     mvn clean test
 
-El reporte de cobertura queda en `target/site/jacoco/index.html`.
-EOF
+El reporte de cobertura queda en `target/site/jacoco/index.html`
