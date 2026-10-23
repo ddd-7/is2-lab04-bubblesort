@@ -8,11 +8,15 @@ public class BubbleSort implements ISorter {
         for (int i = tamanho; i >= 2; i--) {              // nodo 2
             for (int j = 1; j <= i - 1; j++) {            // nodo 3
                 if (vet[j - 1] > vet[j]) {                // nodo 4
-                    int aux = vet[j - 1];                 // nodo 5
-                    vet[j - 1] = vet[j];
-                    vet[j] = aux;
+                    intercambiar(vet, j - 1, j);          // nodo 5
                 }
             }                                             // nodo 6: cierre del if y j++
         }                                                 // nodo 7: i--
+    }
+
+    private void intercambiar(int[] vet, int a, int b) {
+        int aux = vet[a];
+        vet[a] = vet[b];
+        vet[b] = aux;
     }
 }
