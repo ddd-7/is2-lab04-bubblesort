@@ -1,4 +1,4 @@
-# Laboratorio 04 - xUnit y Cobertura de Codigo (Ingenieria de Software II, UNSA)
+# Laboratorio 04 - xUnit y Cobertura de Codigo 
 
 Pruebas unitarias de caja blanca del metodo `bubbleSort` con JUnit 5 y cobertura con JaCoCo (Java + Maven).
 
